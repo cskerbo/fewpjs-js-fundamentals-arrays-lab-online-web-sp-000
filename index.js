@@ -1,1 +1,9 @@
-const append, prepend, removeLast, removeFirst = ['Milo', 'Otis', 'Garfield']
+const append, prepend, removeLast, removeFirst = ['Milo', 'Otis', 'Garfield'];
+
+append.push('Odie');
+
+prepend.unshift('Odie');
+
+removeLast.pop();
+
+removeFirst.shift();
